@@ -1,12 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    font-size: 100px;
+}
+.counter {
+    color: white;
 
-/* 
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+button {
+    margin: 5px;
+}
+h1 {
+    color: white;
+    margin: 20px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body{
+    background: rgb(233,54,54);
+    background: radial-gradient(circle, rgba(233,54,54,1) 0%, rgba(255,229,0,1) 100%);
+}
